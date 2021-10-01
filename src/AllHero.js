@@ -7,7 +7,7 @@ function AllHero() {
       <h2>Search a super on the home page to see thier stats.</h2>
       <AllHeroes />
     </div>
-  )
-}
+  );
+};
 
 export default AllHero;

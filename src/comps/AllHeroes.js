@@ -17,8 +17,8 @@ function AllHeroes() {
           setIsLoaded(true);
           setError(error);
         }
-      )
-  }, [])
+      );
+  }, []);
 
 
   if (error) {
@@ -34,7 +34,7 @@ function AllHeroes() {
         </li>
       ))}
     </ul>
-  )
-}}
+  );
+}};
 
 export default AllHeroes;

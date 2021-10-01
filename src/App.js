@@ -1,7 +1,7 @@
 import Nav from "./comps/Navbar";
 import Home from "./Home";
-import About from "./About"
-import AllHero from "./AllHero"
+import About from "./About";
+import AllHero from "./AllHero";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -25,6 +25,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

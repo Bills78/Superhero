@@ -5,13 +5,13 @@ function Heroes() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [heroes, setHeroes] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [searchValue, setSearchValue] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchValue, setSearchValue] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setSearchValue('')
-  }
+    setSearchValue("");
+  };
 
   useEffect(() => {
     fetch("https://akabab.github.io/superhero-api/api/all.json")
@@ -26,7 +26,7 @@ function Heroes() {
           setError(error);
         }
       )
-  }, [])
+  }, []);
 
 
   if (error) {
@@ -52,13 +52,10 @@ function Heroes() {
             <button type="submit">Search</button>
           </label>
         </form>
-        <Hero 
-          heroes={heroes}
-          searchTerm={searchTerm}
-        />
+        <Hero heroes={heroes} searchTerm={searchTerm}/>
       </div>
     );
-  }
-}
+  };
+};
 
 export default Heroes;

@@ -47,7 +47,7 @@ h1:hover {
   margin: 0 auto;
 }
 
-#hero-image-div {
+.hero-image-div {
   width: 100%;
   text-align: center;
   margin-top: 4em;
@@ -59,7 +59,7 @@ h1:hover {
   margin: 0 auto;
 }
 
-#hero-name {
+.hero-name {
   width: 100%;
   text-align: center;
   text-decoration: underline black;
@@ -75,7 +75,7 @@ h1:hover {
 
 }
 
-#all-stats{
+.all-stats{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

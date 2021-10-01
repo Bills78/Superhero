@@ -13,7 +13,7 @@ function Nav() {
                 <a href='/allheroes'>All Supers</a>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Nav;
