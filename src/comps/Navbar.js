@@ -10,6 +10,7 @@ function Nav() {
             <div className='links'>
                 <a href='/'>Home</a>
                 <a href='/about'>About</a>
+                <a href='/allheroes'>All Supers</a>
             </div>
         </div>
     )

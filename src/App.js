@@ -1,6 +1,7 @@
 import Nav from "./comps/Navbar";
 import Home from "./Home";
 import About from "./About"
+import AllHero from "./AllHero"
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
             </Route>
             <Route exact path="/about">
               <About />
+            </Route>
+            <Route exact path="/allheroes">
+              <AllHero />
             </Route>
           </Switch>
         </div>

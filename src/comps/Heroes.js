@@ -62,26 +62,3 @@ function Heroes() {
 }
 
 export default Heroes;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <ul>
-{heroes.map(hero => (
-  <li key={hero.id}>
-    {hero.name}
-  </li>
-))}
-</ul> */
